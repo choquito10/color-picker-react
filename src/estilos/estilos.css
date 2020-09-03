@@ -1,0 +1,43 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+#root{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+  width: 100vw;
+  height: 100vh;
+}
+
+.inputColor{
+  display: flex;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.divInputs{
+  display: flex;
+
+}
+
+.grilla{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(5,1fr);
+  width: 50vw;
+  height: 50vh;
+  outline:1px solid black;
+  margin-bottom: 50px;
+}
+
+.cuadrosGrilla{
+  cursor: pointer;
+  outline: 0.5px solid black;
+}
